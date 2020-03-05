@@ -1,0 +1,152 @@
+body,
+div,
+img,
+a,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: black;
+}
+
+@font-face {
+	font-family: "futura_medium";
+	src: url("font/futura_medium1.ttf");
+}
+
+@font-face {
+	font-family: "GillSans-Bold";
+	src: url("font/GillSans-Bold.otf");
+}
+
+@font-face {
+	font-family: "gillsanslight";
+	src: url("font/gillsanslight.ttf");
+}
+
+.box {
+	width: 1400px;
+	height: 1000px;
+	margin: auto auto;
+	background-image: url(../img/background.jpg);
+	overflow: hidden;
+	/* box-shadow:0 0 150px 100px #434343 inset; */
+}
+
+.box a {
+	text-decoration: none;
+	color: rgb(241, 74, 55, 0);
+}
+
+.drawer {
+	background-color: rgb(241, 74, 55, 0.85);
+	transition: 1s;
+	position: relative;
+
+	font-size: 30px;
+	text-indent: 10px;
+	font-family: "futura_medium";
+	letter-spacing: 25px;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.box1 {
+	width: 130px;
+	height: 47px;
+	line-height: 47px;
+	margin-top: 250px;
+	margin-left: 555px;
+}
+
+.box2 {
+	width: 140px;
+	height: 54px;
+	line-height: 54px;
+	margin-top: 73px;
+	margin-left: 677px;
+}
+
+.box3 {
+	width: 155px;
+	height: 67px;
+	line-height: 67px;
+	margin-top: 86px;
+	margin-left: 823px;
+}
+
+.drawer:hover {
+	width: 420px;
+	color: white !important;
+}
+
+.box a:hover {
+	text-decoration: none;
+}
+
+.foot {
+	width: 100%;
+	margin-top: 100px;
+	height: 190px;
+	background-color: rgb(0, 0, 0, 0.5);
+	color: white;
+	position: relative;
+	box-shadow: 0 0 200px 200px black inset;
+}
+
+.left {
+	width: 270px;
+	height: 150px;
+	font-size: 50px;
+	font-family: "gillsanslight";
+	margin-left: 40px;
+	line-height: 50px;
+	float: left;
+	color: rgb(190, 190, 190);
+	margin-top: 20px;
+}
+
+.right {
+	width: 1000px;
+	height: 150px;
+	margin-top: 20px;
+	background-color: rgb(0, 0, 0, 0.7);
+	float: right;
+	font-family: "GillSans-Bold";
+	font-size: 130px;
+	text-transform: uppercase;
+	overflow: hidden;
+	white-space: nowrap;
+	word-spacing: 1rem;
+}
+/* .box2{
+	clear: both;
+	background-image: url(../img/background2.jpg);
+	width: auto;
+	height: 2000px;
+	background-size: 100% auto;
+	margin: auto auto;
+}
+.bb{
+	height: 110px;
+	background-color: rgb(241, 74, 55, 0.85);
+	position: absolute;
+	border-radius: 4px;
+}
+.box11{
+	left: 11%;
+	width: 25%;
+	top: 16%;
+}
+.box12{
+	width: 27%;
+	left: 32%;
+	top: 28%;
+}
+.box13{
+	width: 28%;
+	left: 58%;
+	top: 43%;
+} */
